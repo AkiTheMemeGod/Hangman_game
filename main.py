@@ -33,9 +33,10 @@ ctk.set_default_color_theme("blue")
 
 app = ctk.CTk()
 app.geometry("564x797+700+150")
-app.title('Password_Checker-v2.0')
+app.title('HangMan Game -TEAM 2-')
 app.after(201, lambda: app.iconbitmap('images/image.ico'))
 check_butt = PhotoImage(file='images/check.png')
+
 i1 = PhotoImage(file='Hangman images/1.png')
 i2 = PhotoImage(file='Hangman images/2.png')
 i3 = PhotoImage(file='Hangman images/3.png')
