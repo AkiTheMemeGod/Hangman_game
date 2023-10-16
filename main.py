@@ -75,10 +75,12 @@ def choose_word():
 
 
 def new_game():
+    global i
     l1.configure(image=img1)
     global word_to_guess, guesses_left, guessed_letters, game_over
     word_to_guess = choose_word()
     guesses_left = 6
+    i = 0
     guessed_letters = []
     game_over = False
     update_display()
